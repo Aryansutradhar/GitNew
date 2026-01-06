@@ -1,0 +1,16 @@
+a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+
+Add=a+b
+Sub=a-b
+mul=a*b
+
+print("Sum:",Add)
+print("Sub:",Sub)
+print("Mul:",mul)
+
+if b!=0:
+    Div=a/b
+    print("Div:",Div)
+else:
+    print("cannot div:")    
